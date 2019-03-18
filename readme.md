@@ -1,3 +1,5 @@
+# Potential Field Calc
+
 The code can be run on a single machine. In this case use the following lines to compile and then simply run the job:
 
 gfortran -O3 bootsik.f90

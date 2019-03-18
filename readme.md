@@ -10,4 +10,8 @@ To run the code in parallel on a HPC use the following lines to compile:
 module load intel/2018.1
 ifort -o bootsik -O3 -parallel bootsik.f90 -xHost
 
+\begin{equation}
+E=mc^2
+\end{equation}
+
 Then submit the job to a HPC cluster. Intel 2018 works well but other compilers that can auto parallelise may also work.

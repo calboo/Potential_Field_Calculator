@@ -1,4 +1,9 @@
-# Potential Field Calc
+# Potential Field Calculator
+
+WHAT DOES THIS DO  
+WHAT ARE THE FILES  
+HOW DOES IT WORK  
+EQUATIONS  
 
 ### Usage
 The code can be run on a single machine. In this case use the following lines to compile and then simply run the job:

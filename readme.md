@@ -56,4 +56,4 @@ ifort -o bootsik -O3 -parallel bootsik.f90 -xHost**
 
 Then submit the job to a HPC cluster. Intel 2018 works well but other compilers that can auto parallelise may also work.
 
-To use boobox simply open an IDL window and run enter the command **boobox** making sure that the dat files are in the current directory. If using Lare3d input the data snapshot will also need to be specified. This can be done by first loading the snapshot e.g. **ds = getdata(10)** and then running boobox with **boobox, ds**.
+To use boobox, simply open an IDL window and run enter the command **boobox**, making sure that the dat files are in the current directory. If using Lare3d input the data snapshot will also need to be specified. This can be done by first loading the snapshot e.g. **ds = getdata(10)** and then running boobox with **boobox, ds**.
